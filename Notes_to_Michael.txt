@@ -2,7 +2,7 @@ I've had several problems getting these lecture notes to work on my Mac.
 
 1. Can't get animations to work (the HTML command). I seem to be missing a MovieWriter. Probably I have to install ffmpeg but I don't know how yet.
 -- I tried installing ffmpeg into /user/local/bin/ but that did not help.
--- By doing the installation in #2 below, it magically fixed this proble. I don't know why. 
+-- By doing the installation in #2 below, it magically fixed this problem. I don't know why. 
 
 2. Can't get the slideshow to work. Probably have to install RISE. I suspect all I need to do is this:
    conda install -c damianavila82 rise
@@ -32,3 +32,18 @@ import fix_yahoo_finance  # <== that's all it takes :-)
 data = pdr.get_data_yahoo("SPY", start="2017-01-01", end="2017-04-30")
 
 Still fails
+
+Abstract is the following. Make sure you cover what you said you would cover.
+
+Michael Lamoureux - Introduction to Jupyter
+
+Jupyter (http://jupyter.org/) is an open source project created by scientific researchers to address challenges in combining text, math formulas, data and code, resulting in active computational documents which support their research. Three computing languages, Julia, Python and R are at the heart of “JuPyteR,” which form the basis for its name. This workshop will give an introduction to the Jupyter notebook, and the syzygy.ca online service developed by PIMS, Compute Canada and Cybera (Alberta). Using the tools in Scientific Python, Julia and R, we will show a few basics (how to access syzygy.ca, plot data and graphics, created formatted text and math formulas, run simple statistical analysis) and demo more complex computational methods (solving linear algebra problems, numerical partial differential equations, interactive graphics, data analysis, and more). We’ll use git and the internet to access the world of collaborative, scientific computation.
+
+This will be a hands-on workshop, so bring a laptop with a modern internet browser like Google Chrome or Mozilla Firefox. It will be of interest to any researcher who needs access to advanced computational tools for their work.
+
+Workshop participants should have a Google account (e.g. gmail) in order to access the pims.syzygy.ca online services. Students and staff from the University of Saskatchewan can access the usask.syzygy.ca service using their university login credentials.
+
+Other notes:
+
+Cool Jupyter features:
+http://arogozhnikov.github.io/2016/09/10/jupyter-features.html
